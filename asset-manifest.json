@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://Swaraj44.github.io/Portfolio/static/css/main.018c49aa.css",
-    "main.js": "https://Swaraj44.github.io/Portfolio/static/js/main.e31c4f58.js",
+    "main.js": "https://Swaraj44.github.io/Portfolio/static/js/main.90b94687.js",
     "static/js/453.c173b4f9.chunk.js": "https://Swaraj44.github.io/Portfolio/static/js/453.c173b4f9.chunk.js",
     "index.html": "https://Swaraj44.github.io/Portfolio/index.html",
     "main.018c49aa.css.map": "https://Swaraj44.github.io/Portfolio/static/css/main.018c49aa.css.map",
-    "main.e31c4f58.js.map": "https://Swaraj44.github.io/Portfolio/static/js/main.e31c4f58.js.map",
+    "main.90b94687.js.map": "https://Swaraj44.github.io/Portfolio/static/js/main.90b94687.js.map",
     "453.c173b4f9.chunk.js.map": "https://Swaraj44.github.io/Portfolio/static/js/453.c173b4f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.018c49aa.css",
-    "static/js/main.e31c4f58.js"
+    "static/js/main.90b94687.js"
   ]
 }
