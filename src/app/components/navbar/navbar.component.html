@@ -1,0 +1,27 @@
+<nav class="navbar">
+  <div class="nav-container">
+    <a class="nav-logo" (click)="goTo('home')">
+      <i class="fa-solid fa-code"></i>
+      <span>Swaraj</span>
+    </a>
+
+    <button
+      class="hamburger"
+      [class.open]="menuOpen()"
+      (click)="toggleMenu()"
+      aria-label="Toggle navigation menu"
+    >
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <ul class="nav-menu" [class.show]="menuOpen()">
+      @for (section of sections; track section.id) {
+        <li class="nav-item" [class.active]="activeSection() === section.id">
+          <button (click)="goTo(section.id)">{{ section.label }}</button>
+        </li>
+      }
+    </ul>
+  </div>
+</nav>

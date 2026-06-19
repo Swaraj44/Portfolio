@@ -1,0 +1,24 @@
+<section id="experience" class="experience">
+  <div class="container">
+    <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Experience</h2>
+    <div class="exp-grid">
+      @for (exp of experiences; track exp.company) {
+        <div class="exp-card">
+          <div class="exp-head">
+            <div class="exp-role">
+              <h3>{{ exp.role }}</h3>
+              <p class="exp-company">{{ exp.company }}</p>
+            </div>
+            <span class="exp-period">{{ exp.period }}</span>
+          </div>
+          <p class="exp-desc">{{ exp.description }}</p>
+          <div class="project-tech">
+            @for (tech of exp.tech; track tech) {
+              <span>{{ tech }}</span>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
